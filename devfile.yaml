@@ -32,9 +32,6 @@ components:
     endpoints:
       - name: 'hello-greeting-endpoint'
         port: 8080
-        attributes:
-          path: /hello/greeting/che-user
-
   - type: dockerimage
     alias: ubi-quarkus-native-image
     image: 'quay.io/quarkus/ubi-quarkus-native-image:19.2.0.1'
