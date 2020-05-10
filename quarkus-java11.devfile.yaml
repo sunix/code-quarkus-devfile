@@ -11,7 +11,7 @@ projects:
 components:
   -
     type: chePlugin
-    reference: https://raw.githubusercontent.com/eclipse/che-plugin-registry/0221282fe0ed93ae3df87a3dc8c8f3c89c94054b/v3/plugins/redhat/quarkus-java11/1.3.0/meta.yaml
+    reference: https://github.com/eclipse/che-plugin-registry/raw/master/v3/plugins/redhat/quarkus-java11/1.3.0/meta.yaml
   -
     type: dockerimage
     alias: centos-quarkus-maven
