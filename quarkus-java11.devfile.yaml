@@ -50,13 +50,6 @@ components:
     args:
       - '-f'
       - /dev/null
-  - id: redhat/vscode-didact/latest
-    preferences:
-      didact.defaultUrl: 'https://sunix-che-devfile-registry-multiroot-vjnfq.surge.sh/devfiles/quarkus/didact.md'
-      che.welcome.enable: false
-      didact.openDefaultTutorialAtStartup: true
-    type: chePlugin
-    alias: didact-plugin
 commands:
   - name: Package
     actions:
